@@ -15,6 +15,7 @@ template<class T> class KNN
   std::vector<int> yTrain;
   int classNums;
   std::string distType;
+  int k = 5;
   /**
    * @brief Calculates distance euclidean/manhattan
    *

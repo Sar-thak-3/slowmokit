@@ -41,6 +41,7 @@ void KNN<T>::fit(std::vector<std::vector<T>> x, std::vector<int> y,
 template<class T>
 int KNN<T>::predict(std::vector<T> test, int k, std::string distType)
 {
+  this->k = k;
   this->distType = distType;
   std::priority_queue<std::vector<double>>
       pq; // Here we are inserting pair of {distance, class number} in pq
