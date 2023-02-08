@@ -1,6 +1,6 @@
-# Linear Regression
+# Gaussian Naive Bayes
 
-Bernoulli Naive Bayes model.
+Gaussian Naive Bayes model.
 
 Gaussian Naive Bayes computes likelihood/conditional Prob by.
 Conditional probabilty  P(x=f1 / y=class) = __________1____________ * e^(-_____(feature-mean)^2_____)
